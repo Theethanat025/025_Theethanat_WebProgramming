@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>In class box model</title>
+
+    <style>
+      .main {
+        border: 3px double;
+        width: 1000px;
+        text-align: center;
+        padding: 30px;
+        margin: auto;
+      }
+      .logotext {
+        text-transform: uppercase;
+      }
+      .firsttext , .maintext , .subtext{
+        margin: 0;
+      }
+      .menu>li{
+        text-transform: uppercase;
+        display: inline;
+        margin: 20px;
+      }
+      .menu{
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding-left: 0;
+        border-top: 5px solid;
+        border-bottom: 2px solid;
+        padding: 10px;
+        letter-spacing: 2px;
+      }
+      .mainpic{
+        width: 300px;
+      }
+      .footer{
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding-left: 0;
+        padding: 10px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="logotext">
+        <p class="firsttext">the</p>
+        <h1 class="maintext">analog</h1>
+        <h2 class="subtext">specialists</h2>
+      </div>
+
+      <ul class="menu">
+        <li>home</li>
+        <li>for sael</li>
+        <li>repairs</li>
+        <li>about</li>
+        <li>contact</li>
+      </ul>
+
+      <img src="/images/week7-1.jpg" alt="" class="mainpic"/>
+      <img src="/images/week7-2.jpg" alt="" class="mainpic"/>
+      <img src="/images/week7-3.jpg" alt="" class="mainpic"/>
+
+      <p class="footer">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur qui
+        quia eveniet iusto, voluptas dicta eligendi error obcaecati rem eaque
+        eum facere inventore assumenda corrupti aut iure officiis distinctio
+        unde?
+      </p>
+    </div>
+  </body>
+</html>
