@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=a, initial-scale=1.0" />
+    <title>Page Layout</title>
+
+    <style>
+      .new1 {
+        position: relative;
+        width: 300px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 2px solid lightcoral;
+        background-color: lightgoldenrodyellow;
+      }
+      .new2 {
+        position: relative; /*กำหนดตำแหน่ง relative ยึดตำแหน่ง */
+        width: 300px;
+        padding: 10px;
+        border: 2px solid lightcoral;
+        background-color: lightgoldenrodyellow;
+        left: 200px;
+      }
+      .readmore {
+        position: absolute; /*หากต้องการจัดตำแหน่งกล่องเล็ก โดยอ้างอิงตำแหน่งกล่องใหญ่ ใช้ absolute*/
+        right: 2px;
+        top: 3px;
+        width: 100px;
+        padding: 10px;
+        background-color: lightsalmon;
+      }
+      .footer {
+        width: 500px;
+        margin: auto;
+      }
+      .promotion {
+        position: fixed; /*ยึดไว้ไม่ยุ่งกับใคร*/
+        top: 10px;
+        right: 10px;
+        width: 350px;
+        font-size: 68px;
+        color: red;
+        background-color: greenyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="promotion">Promotion!</div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aliquid,
+      culpa vel sapiente voluptatem rem necessitatibus? Consequuntur
+      perspiciatis iste eaque nihil, perferendis eius quia in laudantium, dicta,
+      inventore libero quos.
+    </p>
+
+    <div class="new1">
+      <h1>News1</h1>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
+      voluptatem mollitia, unde doloribus earum facilis aliquid illum
+      perspiciatis eveniet minima culpa vero neque alias veniam doloremque?
+      Reprehenderit ratione dicta enim.
+
+      <div class="readmore">Read More</div>
+    </div>
+
+    <div class="new2">
+      <h1>News2</h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi vero
+      optio, error magni quia suscipit perspiciatis quisquam neque iusto eum
+      iure. Veniam harum illum numquam autem voluptatum, labore debitis
+      excepturi.
+    </div>
+
+    <div class="footer">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum error
+      soluta laboriosam quam delectus quisquam nihil odio explicabo, reiciendis
+      repellat veniam debitis similique incidunt. Maxime possimus porro quas
+      sapiente quia. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+      Doloribus temporibus quibusdam ea fuga quo ratione ipsa perferendis.
+      Soluta vitae illo dicta eaque quo, nam amet, repudiandae ullam odit
+      repellendus voluptas?lo
+    </div>
+  </body>
+</html>
