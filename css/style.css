@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans+Thai&display=swap');
+
+.content{
+    color: rgb(92, 131, 116);
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Noto Sans Thai', sans-serif;
+}

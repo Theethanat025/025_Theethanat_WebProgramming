@@ -3,108 +3,187 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>025_Theethanart_Thanakunphaisit</title>
+    <title>Excercise2_Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .title,.title2 {
+        width: 200px;
+        font-family: Noto Sans Thai;
+        color: darkgoldenrod;
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+      }
+      .intro {
+        width: 750px;
+        text-align: center;
+        font-family: Noto Sans Thai;
+        margin: auto;
+        margin-top: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid darkgoldenrod;
+      }
+      .mainpicfood {
+        width: 750px;
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+        border: 1px solid lightgray;
+      }
+      .title2{
+        margin-top: 40px;
+      }
+      .tableFi{
+        width: 750px;
+        margin: auto;
+        margin-top: 30px;
+        text-align: center;
+        font-family: Noto Sans Thai;
+      }
+      .titletableFi{
+        background-color: darkgoldenrod;
+        color: aliceblue;
+        font-size: 18px;
+      }
+      .datatableFi{
+        background-color:lightgoldenrodyellow;
+      }
+      .datahowto{
+        width: 750px;
+        margin: auto;
+        margin-top: 40px;
+        padding: 10px;
+        background-color: rgb(92, 131, 116);
+        color: aliceblue;
+        font-family: Noto Sans Thai;
+      }
+      .footer{
+        width: 750px;
+        background-color: lightgray;
+        padding: 10px;
+        margin: auto;
+        margin-top: 40px;
+      }
+    
+    </style>
   </head>
   <body>
+    <h1 class="title">คั่วกลิ้งหมู</h1>
 
-    <h1>คั่วกลิ้งหมู</h1>
-
-    <a href="/index.html">Home</a>
-
-    <p>
-      อาหารใต้รสเริดที่ผมรับประทานมาตั้งแต่เด็ก
-      ด้วยรสชาติอันเผ็ดร้อนและกลิ่นที่หอมเป็นเอกลักษณ์ ของเครื่องแกงใต้
-      ที่ผู้คนจากทุกภูมิภาคอยากลิ้มลอง
+    <p class="intro">
+      "อาหารใต้รสเริดที่นี้เป็นความเป็นเอกลักษณ์ของความอร่อยที่ผ่านมาตั้งแต่วัยเด็กของผม
+      ด้วยรสชาติที่เผ็ดร้อนและกลิ่นหอมที่เป็นเอกลักษณ์ของเครื่องแกงใต้
+      มันไม่เพียงเป็นอาหารที่อร่อย แต่ยังเป็นประสบการณ์ทางการกินที่ไม่ลืมลง
+      ผมแนะนำให้ทุกคนลองชิมและสัมผัสความอร่อยที่สุดของภาคใต้ไปด้วยกัน!"
     </p>
-    <img src="images/foo2.jpg" alt="ThaiFood" width="700 px">
 
-    <h2>ส่วนผสม คั่วกลิ้งหมู</h2>
-    <table border="2">
-      <tr>
-        <td>ลำดับ</td>
-        <td>วัตถุดิบ</td>
-        <td>ปริมาณ</td>
-        <td>หน่วย</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>หมูเนื้อแดงสับ</td>
-        <td>200</td>
-        <td>กรัม</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>น้ำพริกคั่วกลิ้ง</td>
-        <td>2</td>
-        <td>ช้อนโต๊ะ</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>กะปิอย่างดี</td>
-        <td>1/2</td>
-        <td>ช้อนชา</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>น้ำตาลปี๊บ</td>
-        <td>1/2</td>
-        <td>ช้อนชา</td>
-      </tr>
-      <tr>
-        <td>5</td>
-        <td>น้ำปลา</td>
-        <td>1</td>
-        <td>ช้อนชา</td>
-      </tr>
-      <tr>
-        <td>6</td>
-        <td>น้ำมันพืช</td>
-        <td>1</td>
-        <td>ช้อนโต๊ะ</td>
-      </tr>
-      <tr>
-        <td>7</td>
-        <td>ใบมะกรูดซอย</td>
-        <td>6</td>
-        <td>ใบ</td>
-      </tr>
-      <tr>
-        <td>8</td>
-        <td>พริกไทยอ่อน</td>
-        <td>1</td>
-        <td>ช่อ</td>
-      </tr>
-    </table>
+    <img src="images/foo2.jpg" alt="" class="mainpicfood" />
 
-    <h2>วิธีทำคั่วกลิ้งหมู</h2>
+    <div>
+      <h2 class="title2">ส่วนผสม คั่วกลิ้งหมู</h2>
 
-    <ol>
+      <table border="2" class="tableFi">
+        <tr class="titletableFi">
+          <td>ลำดับ</td>
+          <td>วัตถุดิบ</td>
+          <td>ปริมาณ</td>
+          <td>หน่วย</td>
+        </tr>
+          <tr>
+            <td>1</td>
+            <td>หมูเนื้อแดงสับ</td>
+            <td>200</td>
+            <td>กรัม</td>
+          </tr>
+          <tr class="datatableFi">
+            <td>2</td>
+            <td>น้ำพริกคั่วกลิ้ง</td>
+            <td>2</td>
+            <td>ช้อนโต๊ะ</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>กะปิอย่างดี</td>
+            <td>1/2</td>
+            <td>ช้อนชา</td>
+          </tr>
+          <tr class="datatableFi">
+            <td>4</td>
+            <td>น้ำตาลปี๊บ</td>
+            <td>1/2</td>
+            <td>ช้อนชา</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>น้ำปลา</td>
+            <td>1</td>
+            <td>ช้อนชา</td>
+          </tr>
+          <tr class="datatableFi">
+            <td>6</td>
+            <td>น้ำมันพืช</td>
+            <td>1</td>
+            <td>ช้อนโต๊ะ</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>ใบมะกรูดซอย</td>
+            <td>6</td>
+            <td>ใบ</td>
+          </tr>
+          <tr class="datatableFi">
+            <td>8</td>
+            <td>พริกไทยอ่อน</td>
+            <td>1</td>
+            <td>ช่อ</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 class="title2">วิธีทำคั่วกลิ้งหมู</h2>
+
+      <div class="datahowto">
+      <ol>
         <li>โขลกน้ำพริกคั่วกลิ้งกับกะปิให้พอเข้ากัน เตรียมไว้</li>
-        <br>
+        <br />
         <li>ใส่น้ำมันพืชลงในกระทะ พอร้อนใส่เนื้อหมูสับลงไปผัดจนเกือบสุก</li>
-        <br>
-        <li>จากนั้นใส่น้ำพริกคั่วกลิ้งลงไปผัดกับหมูสับให้เข้ากัน ปรุงรสด้วยน้ำตาลปี๊บและน้ำปลา ผัดให้เข้ากัน ชิมรสตามชอบ</li>
-        <br>
-        <li>ปิดไฟแล้วใส่พริกไทยอ่อนและใบมะกรูดซอยลงไปผัดให้เข้ากัน ตักใส่จาน เสิร์ฟพร้อมกับผักสดตามชอบ</li>
-    </ol>
+        <br />
+        <li>
+          จากนั้นใส่น้ำพริกคั่วกลิ้งลงไปผัดกับหมูสับให้เข้ากัน
+          ปรุงรสด้วยน้ำตาลปี๊บและน้ำปลา ผัดให้เข้ากัน ชิมรสตามชอบ
+        </li>
+        <br />
+        <li>
+          ปิดไฟแล้วใส่พริกไทยอ่อนและใบมะกรูดซอยลงไปผัดให้เข้ากัน ตักใส่จาน
+          เสิร์ฟพร้อมกับผักสดตามชอบ
+        </li>
+      </ol>
+    </div>
 
-    <br>
-    <h2>Comment</h2>
+    <div class="footer">
+      <h2>Comment</h2>
 
-    <label for="topics">Topics :</label>
-    <input type="text" placeholder="topic">
+      <label for="topics">Topics :</label>
+      <input type="text" placeholder="topic" />
 
-    <br>
-    <br>
+      <br />
+      <br />
 
-    <label for="comment">Comment :</label>
-    <textarea name="comments" cols="30" rows="5"></textarea>
+      <label for="comment">Comment :</label>
+      <textarea name="comments" cols="100" rows="5"></textarea>
 
-    <br>
-    <br>
+      <br />
+      <br />
 
-    <input type="submit" value="submit">
-    <input type="reset" value="clear">
+      <input type="submit" value="submit" />
+      <input type="reset" value="clear" />
+    </div>
 
   </body>
 </html>

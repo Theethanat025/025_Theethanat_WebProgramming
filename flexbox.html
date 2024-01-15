@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox</title>
+    <style>
+        .container,.container2{ /*กำหนดที่แม่ ลูกเลื่อนเอง */
+            border: 1px solid red;
+            display: flex;
+            flex-direction: row;
+            /* flex-direction: row; (แนวนอน) flex-direction: column; (แนวตั้ง)*/
+            justify-content: space-around;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+        .col{
+            width: 30%;
+            border: 1px solid;
+            padding: 5px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        .col2{
+            width: 50%;
+            border: 1px solid;
+            padding: 5px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ea
+          vel. Molestiae nam, ad assumenda, atque ipsa dignissimos blanditiis
+          optio eius aperiam eaque ipsam labore minima alias laudantium expedita
+          quas.
+        </p>
+      </div>
+      <div class="col">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ea
+          vel. Molestiae nam, ad assumenda, atque ipsa dignissimos blanditiis
+          optio eius aperiam eaque ipsam labore minima alias laudantium expedita
+          quas.
+        </p>
+      </div>
+      <div class="col">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ea
+          vel. Molestiae nam, ad assumenda, atque ipsa dignissimos blanditiis
+          optio eius aperiam eaque ipsam labore minima alias laudantium expedita
+          quas.
+        </p>
+      </div>
+      <div class="col">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ea
+          vel. Molestiae nam, ad assumenda, atque ipsa dignissimos blanditiis
+          optio eius aperiam eaque ipsam labore minima alias laudantium expedita
+          quas.
+        </p>
+      </div>
+      <div class="col">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ea
+          vel. Molestiae nam, ad assumenda, atque ipsa dignissimos blanditiis
+          optio eius aperiam eaque ipsam labore minima alias laudantium expedita
+          quas.
+        </p>
+      </div>
+    </div>
+    <div class="container2">
+        <div class="col2">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ea
+            vel. Molestiae nam, ad assumenda, atque ipsa dignissimos blanditiis
+            optio eius aperiam eaque ipsam labore minima alias laudantium expedita
+            quas.
+          </p>
+        </div>
+        <div class="col2">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ea
+            vel. Molestiae nam, ad assumenda, atque ipsa dignissimos blanditiis
+            optio eius aperiam eaque ipsam labore minima alias laudantium expedita
+            quas.
+          </p>
+        </div>
+      </div>
+  </body>
+</html>
