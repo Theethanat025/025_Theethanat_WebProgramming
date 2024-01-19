@@ -5,35 +5,196 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-8">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
-            molestiae doloribus esse nam accusamus tempore laborum recusandae! Illo
-            at sed voluptate neque, itaque, officiis architecto ea consequuntur
-            minima omnis qui!
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Theethanat Thanakunphaisit</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <!-- s ซ้าย , e ขวา , t บน , b ล่าง -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >หน้าแรก</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ประวัติส่วนตัว</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ผลงานเด่น</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ติดต่อเรา</a>
+              </li>
+            </ul>
           </div>
-          <div class="col-2">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
-            molestiae doloribus esse nam accusamus tempore laborum recusandae! Illo
-            at sed voluptate neque, itaque, officiis architecto ea consequuntur
-            minima omnis qui!
-          </div>
-          <div class="col-2">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
-            molestiae doloribus esse nam accusamus tempore laborum recusandae! Illo
-            at sed voluptate neque, itaque, officiis architecto ea consequuntur
-            minima omnis qui!
-          </div>
-        </div> <!--end row-->
+        </div>
+      </nav>
+    </div>
+
+    <div class="container">
+      <div class="row pt-4 mx">
+        <div class="col-4">
+          <h1 class="pt-5">I'm Theethanat</h1>
+          <h2>Life is too short to waste it.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est alias
+            optio ratione. Quaerat dolores repellat, officia praesentium quam,
+            rem, veniam aspernatur sint porro eum animi commodi voluptate est
+            reprehenderit tempora.
+          </p>
+
+          <button type="button" class="btn mybtn">Get to know me</button>
+        </div>
+        <div class="col-8">
+          <img src="/images/imhappy.jpg" class="img-fluid" alt="..." />
+        </div>
+      </div>
+      <div class="row portfolio pt-5 mt-5">
+        <h1 class="topic text-center pb-5">Web desige portfolio</h1>
+
+        <div class="col text-center">
+          <i class="bi bi-pc-display"></i>
+          <h2 class="topic mb-5">School Project</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt
+            ullam commodi suscipit explicabo facilis debitis beatae vitae
+            perferendis sit totam consectetur odit minus, optio, praesentium
+            earum ea sint corrupti.
+          </p>
+        </div>
+        <div class="col text-center">
+          <i class="bi bi-file-earmark-text-fill"></i>
+          <h2 class="topic mb-5">Government Project</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt
+            ullam commodi suscipit explicabo facilis debitis beatae vitae
+            perferendis sit totam consectetur odit minus, optio, praesentium
+            earum ea sint corrupti.
+          </p>
+        </div>
+        <div class="col text-center">
+          <i class="bi bi-cup-hot-fill"></i>
+          <h2 class="topic mb-5">Coffee shop Project</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt
+            ullam commodi suscipit explicabo facilis debitis beatae vitae
+            perferendis sit totam consectetur odit minus, optio, praesentium
+            earum ea sint corrupti.
+          </p>
+        </div>
+      </div>
+
+      <h1 class="bluetopic text-center mt-5">Academic Services</h1>
+      <div class="figure-container mt-5">
+        <figure class="figure">
+            <img src="/images/pic1.jpg" width="300px" class="figure-img img-fluid rounded" alt="...">
+            <figcaption class="figure-caption">category 19 JAN 2024</figcaption>
+            <div>
+                <h5>Dijital Marketing</h5>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur doloribus sint quaerat itaque laboriosam, aut animi rem explicabo reprehenderit pariatur perferendis iure ex corporis, provident in architecto aperiam! Voluptas, eligendi?
+                </p>
+            </div>
+        </figure>
+    
+        <figure class="figure">
+          <img src="/images/pic2.jpg" width="300px" class="figure-img img-fluid rounded" alt="...">
+          <figcaption class="figure-caption">category 19 JAN 2024</figcaption>
+          <div>
+              <h5>Data Analytic</h5>
+              <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur doloribus sint quaerat itaque laboriosam, aut animi rem explicabo reprehenderit pariatur perferendis iure ex corporis, provident in architecto aperiam! Voluptas, eligendi?
+              </p>
+        </figure>
+
+        <figure class="figure">
+          <img src="/images/pic3.jpg" width="300px" class="figure-img img-fluid rounded" alt="...">
+          <figcaption class="figure-caption">category 19 JAN 2024</figcaption>
+          <div>
+              <h5>Business Intellegence</h5>
+              <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur doloribus sint quaerat itaque laboriosam, aut animi rem explicabo reprehenderit pariatur perferendis iure ex corporis, provident in architecto aperiam! Voluptas, eligendi?
+              </p>
+        </figure>
+
+        <figure class="figure">
+          <img src="/images/pic4.jpg" width="300px" class="figure-img img-fluid rounded" alt="...">
+          <figcaption class="figure-caption">category 19 JAN 2024</figcaption>
+          <div>
+              <h5>Software Development</h5>
+              <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur doloribus sint quaerat itaque laboriosam, aut animi rem explicabo reprehenderit pariatur perferendis iure ex corporis, provident in architecto aperiam! Voluptas, eligendi?
+              </p>
+        </figure>
+    </div>
+
+    <div class="row footer mt-5 pt-5 px-5">
+
+      <div class="col-2 ps-5 py-5">
+        <i class="bi bi-house-heart"></i>
+      </div>
+
+      <div class="col py-5">
+        <p>Home</p>
+        <p>Teaching</p>
+        <p>Research</p>
+      </div>
+
+      <div class="col-2 py-5">
+        <p>Academic Services</p>
+        <p>About</p>
+        <p>Contact</p>
+      </div>
+
+      <div class="col-3 py-5">
+        <label for="firstname"></label>
+        <input type="text" value="" placeholder="Email" maxlength="50">
+        <p class="pt-3">stay in touch with me!</p>
+      </div>
+
+      <div class="col ps-5 py-5">
+        <i class="bi bi-instagram"></i>
+      </div>
+
+      <div class="col py-5">
+        <i class="bi bi-twitter"></i>
+      </div>
+
+      <div class="col py-5">
+        <i class="bi bi-facebook"></i>
+      </div>
+
+      <div class="col py-5">
+        <i class="bi bi-globe"></i>
+      </div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
