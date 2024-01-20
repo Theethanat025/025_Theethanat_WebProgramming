@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans+Thai&display=swap');
 
 .content{
-    color: rgb(92, 131, 116);
+    color: darkblue;
 }
 
 body{
@@ -47,4 +47,12 @@ body{
 .bi-instagram , .bi-twitter , .bi-facebook , .bi-globe{
     color: white;
     font-size: 20px;
+}
+.port{
+    color: aliceblue;
+    font-size: 60px;
+}
+.head1{
+    border-bottom: 2px solid rgb(15, 76, 117);
+    padding-bottom: 50px;
 }

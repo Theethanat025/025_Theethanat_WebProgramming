@@ -4,13 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Theethanat Thanakunphaisit 025</title>
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Noto+Sans+Thai&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="css/style.css" />
 
     <style>
       h1 {
@@ -41,42 +52,143 @@
     </style>
   </head>
   <body>
-    <h1>Portfolio</h1>
+    <div class="container-fluid">
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary"
+        style="background-color: rgb(15, 76, 117) !important"
+      >
+        <div class="container-fluid">
+          <i class="ps-5 bi-house-heart port"></i>
+          <a class="navbar-brand ps-3" style="color: aliceblue" href="#"
+            >Theethanat <br />
+            Thanakunphaisit</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <!-- s ซ้าย , e ขวา , t บน , b ล่าง -->
+              <li class="nav-item ps-3">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  style="color: aliceblue"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item ps-3">
+                <a class="nav-link" href="#" style="color: aliceblue"
+                  >About me</a
+                >
+              </li>
+              <li class="nav-item ps-3">
+                <a class="nav-link" href="#" style="color: aliceblue"
+                  >Exercises</a
+                >
+              </li>
+              <li class="nav-item ps-3 pe-5">
+                <a class="nav-link" href="#" style="color: aliceblue"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="row head1 pt-4 mx-auto">
+        <div class="col">
+          <h1 class="bluetopic mt-5">สวัสดีครับ!</h1>
+          <h3 class="bluetopic">ผมชื่อน็อต</h3>
+          <p class="content">
+            นาย ธีธนาตย์ ธนกุลไพสิฐ รหัสนักศึกษา 6540011025
+            <br />นักศึกษา สาขา เทคโนโลยีสารสนเทศ คณะ
+            วิทยาศาสตร์และเทคโนโลยีอุตสาหกรรม มหาวิทยาลัยสงขลานครินทร์ วิทยาเขต
+            สุราษฎร์ธานี
+          </p>
+          <p class="content">
+            แฟ้มสะสมผลงานนี้เป็นแฟ้มสะสมผลงานสำหรับ รายวิชา <br />Web
+            programming (934-206) เพื่อรวบรวมผลงานและแบบฝึกหัดต่างๆ
+            ตลอดภาคการศึกษาที่ 2/2566
+          </p>
+          <p class="content">“ ทุกความสำเร็จ เกิดขึ้นจากทุกความพยายาม “</p>
+        </div>
+        <div class="col-8">
+          <img src="/images/imhappy.jpg" class="img-fluid" alt="..." />
+        </div>
+      </div>
 
-    <h2 class="exercise">ธีธนาตย์ ธนกุลไพสิฐ (6540011025)</h2>
+      <div class="text-center mt-5">
+        <h2 class="bluetopic">Exercise</h2>
+      </div>
+      <div class="row mt-5">
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="/images/ex1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Exercises 1</h5>
+              <p class="card-text">
+                ยกตัวอย่างเว็บไซต์ที่ชื่นชอบและตั้งคำถามนำว่าเว็บไซต์ทำงานอย่างไร
+              </p>
+              <a href="https://emailpsuac.sharepoint.com/:b:/s/934-206WebProgramming/EQ1s9xoZpytMne8SqYjGnX4BFUD1yc8Ap7OgEb7azHq_3Q?e=RLuDpY" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="/images/ex2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Exercises 2</h5>
+              <p class="card-text">
+                เมนูอาหารที่ชื่นชอบ
+              </p>
+              <a href="ex2.html" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
 
-    <link rel="stylesheet" href="/style.css" />
-    <p class="content">
-      นักศึกษา สาขา เทคโนโลยีสารสนเทศ คณะ วิทยาศาสตร์และเทคโนโลยีอุตสาหกรรม
-      มหาวิทยาลัยสงขลานครินทร์ วิทยาเขต สุราษฎร์ธานี
-    </p>
-    <p class="content">
-      แฟ้มสะสมผลงานนี้เป็นแฟ้มสะสมผลงานสำหรับ รายวิชา Web programming (934-206)
-      เพื่อรวบรวมผลงานและแบบฝึกหัดต่างๆ ตลอดภาคการศึกษาที่ 2/2566
-    </p>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="/images/ex3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Exercises 3</h5>
+              <p class="card-text">
+                ฟอร์มลงทะเบียนศิษย์เก่า IT + IS
+              </p>
+              <a href="Ex3_021_025.html" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
 
-    <img src="images_portforio/025PT.jpg" alt="Theethanat" width= 200px">
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="/images/ex4.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Exercises 4</h5>
+              <p class="card-text">
+                bootstrap
+              </p>
+              <a href="bootstrap.html" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+      </div>      
+      </div>
+    </div>
 
-    <h2 class="exercise">Exercise :</h2>
-    <ul class="content">
-      <li>
-        <a
-          href="https://emailpsuac.sharepoint.com/:b:/s/934-206WebProgramming/EQ1s9xoZpytMne8SqYjGnX4BFUD1yc8Ap7OgEb7azHq_3Q?e=RLuDpY"
-          >EX1:ยกตัวอย่างเว็บไซต์ที่ชื่นชอบและตั้งคำถามนำว่า
-          เว็บไซต์ทำงานอย่างไร
-        </a>
-      </li>
-      <li><a href="ex2.html">EX2:เมนูอาหารที่ชื่นชอบ</a></li>
-      <li>
-        <a href="Ex3_021_025.html"> EX3:ฟอร์มลงทะเบียนศิษย์เก่า IT + IS </a>
-      </li>
-      <li>
-        <a href="bootstrap.html"> EX4:bootstrap </a>
-      </li>
-    </ul>
-    <br />
-
-    <div id="footer">
+    <div class="mt-5" id="footer">
       <h1 class="contact">Contact Me</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae
@@ -85,5 +197,20 @@
         possimus eum, repudiandae, officia vitae!
       </p>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
