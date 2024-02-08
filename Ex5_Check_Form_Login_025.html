@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex5_6540011025_Theethanat</title>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelector("form").onsubmit = function () {
+          let username = document.querySelector("#username").value;
+          let password = document.querySelector("#password").value;
+       
+          // จำนวนตัวอักษร username และ password ต้องมากกว่าหรือเท่ากับ 8 ตัวอักษร
+          let checkusername = username.length >= 8;
+          let checkpassword = password.length >= 8;
+
+          if(!checkusername){
+            document.querySelector("#errorUsername").innerHTML = "Username must be at least 8 characters";
+          } else {
+            document.querySelector("#errorUsername").innerHTML = "";
+          }
+
+          if(!checkpassword){
+            document.querySelector("#errorPassword").innerHTML = "Password must be at least 8 characters";
+          } else {
+            document.querySelector("#errorPassword").innerHTML = "";
+          }
+
+          if(checkusername && checkpassword){
+            return true; // สั่งให้ Form Submit
+          }else{
+            return false; // สั่งให้ Form ไม่ Submit
+          }
+        };
+      });
+    </script>
+    <style>
+      .error {
+        color: red;
+      }
+      .login{
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 300px; 
+        height: 300px;
+        background-color: lightgrey;
+        border-radius: 10px;
+      }
+      h1{
+        text-align: center;
+        margin-top: 50px;
+        color: cornflowerblue;
+      }
+      form{
+        text-align: center;
+        padding-top: 30px;
+      }
+      
+      .username1,.password1{
+        text-align: left;
+        margin-left: 69px;
+      }
+      #oksubmit{
+        background-color: cornflowerblue;
+        color: aliceblue;
+        margin-top: 10px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Login</h1>
+    <div class="container login">
+        <form action="">
+            <p class="username1">Username :</p>
+            <input type="text" id="username" />
+            <p id="errorUsername" class="error"></p>
+            <p class="password1">Password :</p>
+            <input type="password" id="password" />
+            <p id="errorPassword" class="error"></p>
+            <input type="submit" value="OK" id="oksubmit"/>
+          </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        function convertcelsiustoFahrenheit(celsius){
+            let f = celsius*(9/5) + 32;
+            return f ;
+        }
+        function convertFahrenheittocelsius(f){
+            let celsius = ((f-32)*5)/9;
+            return celsius ;
+        }
+        /////////////////////////////////////////////////////////////
+
+        function findAverageHeight(heights) {
+        // หาค่าเฉลี่ยของส่วนสูง
+        let totalHeight = 0;
+        for (let height of heights) {
+         totalHeight += height;
+        }
+        return totalHeight / heights.length;
+        }
+
+        function findMaxHeight(heights) {
+        // หาค่าสูงสุดของส่วนสูง
+        let maxHeight = heights[0];
+        for (let height of heights) {
+            if (height > maxHeight) {
+             maxHeight = height;
+         }
+         }
+         return maxHeight;
+        }
+
+        function findMinHeight(heights) {
+        // หาค่าต่ำสุดของส่วนสูง
+        let minHeight = heights[0];
+        for (let height of heights) {
+            if (height < minHeight) {
+            minHeight = height;
+            }
+        }
+        return minHeight;
+        }
+        //////////////////////////////////////////////////////////////
+
+        function hourToSecond(h){
+            oneHour = 3600
+            return h ;
+        }
+    </script>
+</head>
+<body>
+    <h1>JavaScript</h1>
+    <script>
+        // document.write("Hello JavaScript!");
+        // let name = "Theethanat Thanakunphaisit"
+        // // c=confirm("Are you sure?")
+        // // if(c){
+        // //     document.write("Hello " + name);
+        // // }else{
+        // //     document.write("GoodBye" + name);
+        // // }
+
+        // //Arrey
+        // let scores = [10,20,15,8,10];
+        // // document.write(scores[4])
+
+        // //เรียกทั้งหมด ใช้ Loop
+        // for(var i=0; i<5; i++){
+        //     document.write(scores[i] + "<br>");
+        //     sum = scores[i];
+
+        // }
+        // document.write("Sum = " + sum + "<br>");
+        // document.write("Agv = " + sum / scores.length);
+
+        /////////// อุณหภูมิ start ///////////////
+        let c = 50;
+        let f = convertcelsiustoFahrenheit(c);
+        document.write("Fahrenheit (F) = " + f + "<br>");
+
+        let celsius = convertFahrenheittocelsius(f)
+        document.write("Celsius (C) = " + celsius + "<br>"); 
+
+        ////////// อุณหภูมิ end /////////////////
+
+        // 3.ส่วนสูง start //
+
+        let heights = [155,165,187,160,175,165,155,170,167,150]
+        document
+
+        // ส่วนสูง end //
+
+        // 4.
+        let h = 2;
+        let secound = hourToSecond(h);
+        document.write("<br>Convert " + h + " hr(s)"+ h)
+        
+
+
+
+    </script>
+
+
+</body>
+</html>

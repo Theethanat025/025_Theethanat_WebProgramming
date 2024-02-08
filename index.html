@@ -13,61 +13,37 @@
 <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="container-fluid">
-      <nav
-        class="navbar navbar-expand-lg bg-body-tertiary"
-        style="background-color: rgb(15, 76, 117) !important"
-      >
-        <div class="container-fluid">
-          <i class="ps-5 bi-house-heart port"></i>
-          <a class="navbar-brand ps-3" style="color: aliceblue" href="#"
-            >Theethanat <br />
-            Thanakunphaisit</a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <!-- s ซ้าย , e ขวา , t บน , b ล่าง -->
-              <li class="nav-item ps-3">
-                <a
-                  class="nav-link active"aria-current="page"href="#"style="color: aliceblue"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item ps-3">
-                <a class="nav-link" href="#" style="color: aliceblue"
-                  >About me</a
-                >
-              </li>
-              <li class="nav-item ps-3">
-                <a class="nav-link" href="#" style="color: aliceblue"
-                  >Exercises</a
-                >
-              </li>
-              <li class="nav-item ps-3 pe-5">
-                <a
-                class="nav-link" href="selection-1" style="color: aliceblue"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
     <div class="container">
-      <div class="row head1 pt-4 mx-auto">
-        <div class="col">
+<!-- navbar start -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary1">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Portfolio-025</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNa">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- navbar end -->
+      <div class="row home1">
+        <div class="col-1"></div>
+
+        <div class="col-5 pt-5 ps-5">
           <h1 class="bluetopic mt-5">สวัสดีครับ!</h1>
           <h3 class="bluetopic">ผมชื่อน็อต</h3>
           <p class="content">
@@ -83,12 +59,14 @@
           </p>
           <p class="content">“ ทุกความสำเร็จ เกิดขึ้นจากทุกความพยายาม “</p>
         </div>
-        <div class="col-8">
-          <img src="images/imhappy.jpg" class="img-fluid" alt="..." />
+        <div class="col-5">
+          <img src="images/profile.png" alt="" align="right">
         </div>
       </div>
+    </div>
 
-      <div class="text-center mt-5">
+        <div class="container exercisebg">
+          <div class="text-center pt-5">
         <h2 class="bluetopic">Exercise</h2>
       </div>
       <div class="row mt-5">
@@ -143,44 +121,17 @@
             </div>
           </div>
         </div>
-      </div>
-      <section id="selection-1" class="html"></section>
-      <div class="row footerportfolio mt-5 pt-5 px-5">
 
-        <div class="col-2 ps-5 py-5 ms-5">
-          <i class="bi bi-house-heart"></i>
-        </div>
-  
-        <div class="col py-5 ms-5 mt-3">
-          <p>Home</p>
-          <p>Exercise</p>
-        </div>
-  
-        <div class="col-2 py-5 ms-5 mt-3">
-          <p>About</p>
-          <p>Contact</p>
-        </div>
-
-        <div class="col-2 mb-3" style="border-right: 2px solid ;"></div>
-  
-        <div class="col ps-5 py-5 mt-3">
-          <i class="bi bi-instagram"></i>
-        </div>
-  
-        <div class="col py-5 mt-3">
-          <i class="bi bi-tiktok"></i>
-        </div>
-  
-        <div class="col py-5 mt-3">
-          <a href="https://www.facebook.com/teethanat.thanagunphisit"><i class="bi bi-facebook"></i></a>
-        </div>
-  
-        <div class="col py-5 mt-3">
-          <i class="bi bi-line"></i>
+        <div class="card mb-3">
+          <img src="" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
         </div>
       </div>
-    </div>
-      </div>
+      
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
