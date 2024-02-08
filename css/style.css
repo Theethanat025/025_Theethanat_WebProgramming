@@ -50,6 +50,8 @@ body{
     text-align: center;
 }
 .exercisebg{
+    display: inline-flexbox;
+    width: auto;
     background-color: aliceblue;
 }
 .bg-body-tertiary1{
