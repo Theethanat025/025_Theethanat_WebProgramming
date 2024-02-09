@@ -8,7 +8,7 @@
 body{
     font-family: 'Kanit', sans-serif;
     font-family: 'Noto Sans Thai', sans-serif;
-    background-color: lightskyblue;
+    background-color: white;
 }
 
 .navbar-brand{
@@ -42,18 +42,11 @@ body{
     color: aliceblue;
     font-size: 60px;
 }
-.home1{
-    height: 600px;
-    background-color: lightgray;
+.footer{
+    background-color: cornflowerblue;
+    color: aliceblue;
 }
-.card{
-    text-align: center;
-}
-.exercisebg{
-    display: inline-flexbox;
-    width: auto;
-    background-color: aliceblue;
-}
-.bg-body-tertiary1{
-    background-color: white;
+
+.bi-house-heart{
+    font-size: 60px;
 }

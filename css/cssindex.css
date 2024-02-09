@@ -1,3 +1,77 @@
-.head1{
-    border-bottom: 2px solid rgb(15, 76, 117);
-    padding-bottom: 50px;
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans+Thai&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Noto Sans Thai', sans-serif;
+    background-color: black;
+}
+.card{
+    text-align: center;
+    border: 3px solid greenyellow;
+    background-image: url(https://i.pinimg.com/564x/57/e0/38/57e038b501289171c0dffd86edc25aa5.jpg);
+}
+.card-body{
+    color: aliceblue;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.btn-primary{
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid white;
+}
+.exercisebg{
+    display: inline-flexbox;
+    width: auto;
+    background-color: black;
+}
+.navbar{
+    background-color: black;
+    position:fixed;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+.greentopic{
+    color: greenyellow;
+}
+.content{
+    color: white;
+}
+.nav-link{
+    color: greenyellow;
+    transition: background-color 0.3s ease;
+}
+.nav-link:hover{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+    transition: background-color 0.3s ease;
+}
+.navbar-brand:hover{
+    color: greenyellow;
+}
+.home1{
+    margin-top: 70px;
+    background-image: url(https://img.freepik.com/free-photo/galaxy-night-panorama_23-2148895327.jpg?w=900&t=st=1707462814~exp=1707463414~hmac=9c69c23397519de3402f259292d25c314925e3c5bb513b5aec5c224dd6f583fe);
+}
+.boxText1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.text-center{
+    margin-top: 100px;
+}
+.myname{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
