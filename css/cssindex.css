@@ -4,12 +4,23 @@
 body{
     font-family: 'Kanit', sans-serif;
     font-family: 'Noto Sans Thai', sans-serif;
-    background-color: black;
+    background-image: url(/images/stars.png);
 }
+.greentopic{
+  color: greenyellow;
+  text-align: center;
+  margin-top: 60px;
+}
+.content{
+  color: white;
+}
+/* exercise */
 .card{
     text-align: center;
+    margin-top: 50px;
     border: 3px solid greenyellow;
     background-image: url(https://i.pinimg.com/564x/57/e0/38/57e038b501289171c0dffd86edc25aa5.jpg);
+
 }
 .card-body{
     color: aliceblue;
@@ -25,23 +36,24 @@ body{
 .exercisebg{
     display: inline-flexbox;
     width: auto;
-    background-color: black;
+    background-color: hsla(0, 0%, 0%, 0.7);
 }
+
+/* navbar */
 .navbar{
     background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
     position:fixed;
     width: 100%;
-    padding-left: 80px;
-    padding-right: 80px;
     z-index: 100;
     top: 0;
     left: 0;
 }
-.greentopic{
-    color: greenyellow;
-}
-.content{
-    color: white;
+.namelogo{
+    color: aliceblue;
+    font-size: 20px;
+    padding-top:10px;
 }
 .nav-link{
     color: greenyellow;
@@ -57,9 +69,15 @@ body{
 .navbar-brand:hover{
     color: greenyellow;
 }
+/* home */
 .home1{
+    max-width: 95%;
+    margin: 0 auto;
     margin-top: 70px;
-    background-image: url(https://img.freepik.com/free-photo/galaxy-night-panorama_23-2148895327.jpg?w=900&t=st=1707462814~exp=1707463414~hmac=9c69c23397519de3402f259292d25c314925e3c5bb513b5aec5c224dd6f583fe);
+    background-image: url(/images/nebula.jpg);
+}
+.topichead1{
+    color: greenyellow;
 }
 .boxText1{
     margin-top: 50px;
@@ -71,7 +89,149 @@ body{
     margin-top: 100px;
 }
 .myname{
-    margin-top: 50px;
+    margin-top: 60px;
     color: white;
     text-align: center;
 }
+/* aboutme */
+.abcontent{
+    position: relative;
+    height: 550px;
+    margin-top: 50px;
+    border: 3px solid greenyellow;
+    border-radius: 10px;
+}
+.about-content{
+  margin-top: 50px;
+  margin-left: 30px;
+  color: aliceblue;
+}
+strong{
+  font-size: 20px;
+  color: greenyellow;
+}
+.imgAbout
+{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 320px;
+}
+
+/* ยานอวกาศ */
+.zoom-image {
+    margin-top: 80px;
+    padding-left: 50px;
+    transition: transform 1.0s ease;
+  }
+  
+  .zoom-image:hover {
+    transform: scale(1.6);
+    margin-top: 80px;
+    padding-left: 50px;
+  }
+  
+  /* footer */
+
+  .footer{
+    height: auto;
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url(/images/nebula.jpg);
+    border-top: 2px solid greenyellow;
+  }
+  .footer-icon{
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+  }
+  .footer-content{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .name-icon{
+    font-size: 20px;
+  }
+  .navbar-toggler-icon{
+    background-color: greenyellow;
+    border-radius: 5px;
+  }
+  a{
+    color: aliceblue;
+  }
+  a:hover{
+    color: greenyellow;
+  }
+
+  /* ขนาด mobile */
+  @media (max-width: 768px) {
+    .boxText1 {
+      text-align: center;
+    }
+    .zoom-image{
+      display: none;
+    }
+    .navbar-brand {
+      margin-right: 0;
+    }
+    .myname {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 30px;
+    }
+    .greentopic{
+        font-size: 30px;
+    }
+    .card{
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .footer{
+        margin-top: 30px;
+        height: 100px;
+    }
+    .abcontent{
+        height: 500px;
+    }
+    .exercisebg{
+        background-image: url(/images/stars.png);
+    }
+    .footer-content{
+        display: none;
+    }
+    .footer {
+        padding-top: 40px;
+        height: 430px;
+      }
+      
+      .footer-icon {
+        padding: 0px;
+        margin: 0px;
+        font-size: 30px;
+      }
+      .name-icon{
+        font-size: 16px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      }
+      .namelogo{
+        padding-left: 20px;
+      }
+      .imgAbout{
+        width: 200px;
+      }
+      .imgAbout{
+        display: none;
+      }
+      .abcontent{
+        height: 880px;
+      }
+      .about-content{
+        text-align: center;
+        margin-left: 0px;
+      }
+  }
