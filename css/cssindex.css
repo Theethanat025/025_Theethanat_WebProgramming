@@ -3,7 +3,9 @@
 
 body {
     font-family: 'Kanit';
-    background-image: url(https://i.pinimg.com/564x/57/e0/38/57e038b501289171c0dffd86edc25aa5.jpg);
+    background-color: black;
+    background-image: url(https://i.gifer.com/origin/8a/8a39cf9d423e06c17971bf3cbf288b0d_w200.webp);
+    /* background-image: url(https://i.pinimg.com/564x/57/e0/38/57e038b501289171c0dffd86edc25aa5.jpg); */
 }
 
 .greentopic {
@@ -116,6 +118,7 @@ body {
     margin-top: 50px;
     border: 3px solid greenyellow;
     border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .about-content {
@@ -153,10 +156,11 @@ strong {
 
 .footer {
     height: auto;
-    width: 98%;
+    /* width: 98%; */
     margin: 0 auto;
     margin-top: 50px;
     background-image: url(https://cdn.pixabay.com/photo/2017/08/15/08/23/stars-2643089_1280.jpg);
+    background-size: 100%;
     border-top: 2px solid greenyellow;
 }
 
@@ -192,15 +196,14 @@ a:hover {
 }
 
 .typewriter h1 {
-    color: #fff;
-    font-family: monospace;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid greenyellow; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
+    color: white;
+    overflow: hidden;
+    border-right: .15em solid greenyellow; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
     animation: 
-      typing 3.5s steps(30, end),
+      typing 4s steps(30, end),
       blink-caret .5s step-end infinite;
   }
   
@@ -215,7 +218,13 @@ a:hover {
     from, to { border-color: transparent }
     50% { border-color:greenyellow }
   }
-
+  audio{
+    height: 30px;
+  }
+  audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-pause-button {
+    background-color:greenyellow;
+    border-radius: 100%;
+  }
 /* ขนาด mobile */
 @media (max-width: 768px) {
     .boxText1 {
