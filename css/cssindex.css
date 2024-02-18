@@ -283,8 +283,7 @@ a:hover {
         border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     }
     .namelogo {
-        padding-left: 20px;
-        font-size: 25px;
+        font-size: 20px;
     }
     .imgg{
         display: none;
@@ -312,5 +311,4 @@ a:hover {
     .topichead1{
         font-size: 35px;
     }
-    
 }
