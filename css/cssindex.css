@@ -136,7 +136,7 @@ strong {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 320px;
+    width: 400px;
 }
 
 /* ยานอวกาศ */
@@ -282,9 +282,12 @@ a:hover {
         padding-bottom: 10px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     }
-
     .namelogo {
         padding-left: 20px;
+        font-size: 25px;
+    }
+    .imgg{
+        display: none;
     }
 
     .imgAbout {
@@ -309,4 +312,5 @@ a:hover {
     .topichead1{
         font-size: 35px;
     }
+    
 }
