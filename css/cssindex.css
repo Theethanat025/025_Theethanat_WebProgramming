@@ -264,6 +264,8 @@ a:hover {
 
     .abcontent {
         height: 500px;
+        background-image: none;
+        background-color: rgba(0, 0, 1, 0.5);
     }
     .footer-content {
         display: none;
@@ -272,6 +274,8 @@ a:hover {
     .footer {
         padding-top: 40px;
         height: 430px;
+        background-image: none;
+        background-color: rgba(0, 0, 0, 0.8);
     }
 
     .footer-icon {
@@ -317,4 +321,8 @@ a:hover {
     audio{
         display: none;
     }
+    .imgab{
+        display: none;
+    }
+
 }
